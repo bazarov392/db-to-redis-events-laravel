@@ -2,7 +2,7 @@
     "name": "bazarov392/db-to-redis-events-laravel",
     "description": "Events about data changes from the database to Redis",
     "keywords": ["redis", "db", "laravel", "php", "events"],
-    "version": "1.0.0",
+    "version": "1.0.1",
     "license": "MIT",
     "support": {
         "source": "https://github.com/bazarov392/db-to-redis-events-laravel"
@@ -17,10 +17,7 @@
     "autoload": {
         "psr-4": {
             "Bazarov392\\": "src/"
-        },
-        "files": [
-            "src/helpers.php"
-        ]
+        }
     },
     "authors": [
         {
