@@ -14,6 +14,7 @@ composer require bazarov392/db-to-redis-events-laravel
 
 ```php
 // app/Providers/AppServiceProvider.php
+use Bazarov392\RedisEventsFromDB;
 
 public function boot(): void
 {
